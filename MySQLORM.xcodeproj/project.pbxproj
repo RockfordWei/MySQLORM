@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		OBJ_105 /* MySQLORMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* MySQLORMTests.swift */; };
+		OBJ_107 /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* MySQL.framework */; };
+		OBJ_108 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* PerfectLib.framework */; };
+		OBJ_109 /* MySQLORM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* MySQLORM.framework */; };
+		OBJ_55 /* MySQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* MySQL.swift */; };
+		OBJ_62 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Bytes.swift */; };
+		OBJ_63 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Dir.swift */; };
+		OBJ_64 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* File.swift */; };
+		OBJ_65 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* JSONConvertible.swift */; };
+		OBJ_66 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Log.swift */; };
+		OBJ_67 /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* PerfectError.swift */; };
+		OBJ_68 /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* PerfectServer.swift */; };
+		OBJ_69 /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* SwiftCompatibility.swift */; };
+		OBJ_70 /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* SysProcess.swift */; };
+		OBJ_71 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Utilities.swift */; };
+		OBJ_78 /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Connect.swift */; };
+		OBJ_79 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Connector.swift */; };
+		OBJ_80 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Cursor.swift */; };
+		OBJ_81 /* DataSourceJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DataSourceJoin.swift */; };
+		OBJ_82 /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Delete.swift */; };
+		OBJ_83 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Error.swift */; };
+		OBJ_84 /* Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Execute.swift */; };
+		OBJ_85 /* Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Insert.swift */; };
+		OBJ_86 /* MySQLORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* MySQLORM.swift */; };
+		OBJ_87 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Number.swift */; };
+		OBJ_88 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Parse.swift */; };
+		OBJ_89 /* ResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ResultSet.swift */; };
+		OBJ_90 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Row.swift */; };
+		OBJ_91 /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Select.swift */; };
+		OBJ_92 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Table.swift */; };
+		OBJ_93 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Update.swift */; };
+		OBJ_94 /* Upsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Upsert.swift */; };
+		OBJ_96 /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* MySQL.framework */; };
+		OBJ_97 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* PerfectLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B35ACFA01F2EC53800F75834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_50;
+			remoteInfo = MySQL;
+		};
+		B35ACFA11F2EC53800F75834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_57;
+			remoteInfo = PerfectLib;
+		};
+		B35ACFA21F2EC53800F75834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_50;
+			remoteInfo = MySQL;
+		};
+		B35ACFA31F2EC53800F75834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_57;
+			remoteInfo = PerfectLib;
+		};
+		B35ACFA41F2EC53800F75834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_73;
+			remoteInfo = MySQLORM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* Cursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
+		OBJ_11 /* DataSourceJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceJoin.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delete.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Execute.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insert.swift; sourceTree = "<group>"; };
+		OBJ_16 /* MySQLORM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLORM.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ResultSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSet.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Upsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upsert.swift; sourceTree = "<group>"; };
+		OBJ_27 /* MySQLORMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLORMTests.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		OBJ_33 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_34 /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		OBJ_36 /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
+		OBJ_37 /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
+		OBJ_38 /* SwiftCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCompatibility.swift; sourceTree = "<group>"; };
+		OBJ_39 /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		OBJ_43 /* MySQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQL.swift; sourceTree = "<group>"; };
+		OBJ_46 /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_47 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_48 /* MySQLORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQLORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_49 /* MySQLORMTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MySQLORMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* MySQL.framework in Frameworks */,
+				OBJ_108 /* PerfectLib.framework in Frameworks */,
+				OBJ_109 /* MySQLORM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* MySQL.framework in Frameworks */,
+				OBJ_97 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_25 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* MySQLORMTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* MySQLORMTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* MySQLORMTests.swift */,
+			);
+			name = MySQLORMTests;
+			path = Tests/MySQLORMTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* PerfectLib 2.0.11 */,
+				OBJ_41 /* MySQL 2.1.2 */,
+				OBJ_44 /* mysqlclient 2.0.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_29 /* PerfectLib 2.0.11 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* PerfectLib */,
+			);
+			name = "PerfectLib 2.0.11";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* Bytes.swift */,
+				OBJ_32 /* Dir.swift */,
+				OBJ_33 /* File.swift */,
+				OBJ_34 /* JSONConvertible.swift */,
+				OBJ_35 /* Log.swift */,
+				OBJ_36 /* PerfectError.swift */,
+				OBJ_37 /* PerfectServer.swift */,
+				OBJ_38 /* SwiftCompatibility.swift */,
+				OBJ_39 /* SysProcess.swift */,
+				OBJ_40 /* Utilities.swift */,
+			);
+			name = PerfectLib;
+			path = ".build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_41 /* MySQL 2.1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_42 /* MySQL */,
+			);
+			name = "MySQL 2.1.2";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_42 /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_43 /* MySQL.swift */,
+			);
+			name = MySQL;
+			path = ".build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/MySQL";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_44 /* mysqlclient 2.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "mysqlclient 2.0.1";
+			path = ".build/checkouts/Perfect-mysqlclient.git-5333716826204139417";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_46 /* MySQL.framework */,
+				OBJ_47 /* PerfectLib.framework */,
+				OBJ_48 /* MySQLORM.framework */,
+				OBJ_49 /* MySQLORMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_25 /* Tests */,
+				OBJ_28 /* Dependencies */,
+				OBJ_45 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Connect.swift */,
+				OBJ_9 /* Connector.swift */,
+				OBJ_10 /* Cursor.swift */,
+				OBJ_11 /* DataSourceJoin.swift */,
+				OBJ_12 /* Delete.swift */,
+				OBJ_13 /* Error.swift */,
+				OBJ_14 /* Execute.swift */,
+				OBJ_15 /* Insert.swift */,
+				OBJ_16 /* MySQLORM.swift */,
+				OBJ_17 /* Number.swift */,
+				OBJ_18 /* Parse.swift */,
+				OBJ_19 /* ResultSet.swift */,
+				OBJ_20 /* Row.swift */,
+				OBJ_21 /* Select.swift */,
+				OBJ_22 /* Table.swift */,
+				OBJ_23 /* Update.swift */,
+				OBJ_24 /* Upsert.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_100 /* MySQLORMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "MySQLORMTests" */;
+			buildPhases = (
+				OBJ_104 /* Sources */,
+				OBJ_106 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_110 /* PBXTargetDependency */,
+				OBJ_111 /* PBXTargetDependency */,
+				OBJ_112 /* PBXTargetDependency */,
+			);
+			name = MySQLORMTests;
+			productName = MySQLORMTests;
+			productReference = OBJ_49 /* MySQLORMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_50 /* MySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "MySQL" */;
+			buildPhases = (
+				OBJ_54 /* Sources */,
+				OBJ_56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySQL;
+			productName = MySQL;
+			productReference = OBJ_46 /* MySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_57 /* PerfectLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_58 /* Build configuration list for PBXNativeTarget "PerfectLib" */;
+			buildPhases = (
+				OBJ_61 /* Sources */,
+				OBJ_72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectLib;
+			productName = PerfectLib;
+			productReference = OBJ_47 /* PerfectLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_73 /* MySQLORM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_74 /* Build configuration list for PBXNativeTarget "MySQLORM" */;
+			buildPhases = (
+				OBJ_77 /* Sources */,
+				OBJ_95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_98 /* PBXTargetDependency */,
+				OBJ_99 /* PBXTargetDependency */,
+			);
+			name = MySQLORM;
+			productName = MySQLORM;
+			productReference = OBJ_48 /* MySQLORM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "MySQLORM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_50 /* MySQL */,
+				OBJ_57 /* PerfectLib */,
+				OBJ_73 /* MySQLORM */,
+				OBJ_100 /* MySQLORMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_105 /* MySQLORMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_55 /* MySQL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_62 /* Bytes.swift in Sources */,
+				OBJ_63 /* Dir.swift in Sources */,
+				OBJ_64 /* File.swift in Sources */,
+				OBJ_65 /* JSONConvertible.swift in Sources */,
+				OBJ_66 /* Log.swift in Sources */,
+				OBJ_67 /* PerfectError.swift in Sources */,
+				OBJ_68 /* PerfectServer.swift in Sources */,
+				OBJ_69 /* SwiftCompatibility.swift in Sources */,
+				OBJ_70 /* SysProcess.swift in Sources */,
+				OBJ_71 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_78 /* Connect.swift in Sources */,
+				OBJ_79 /* Connector.swift in Sources */,
+				OBJ_80 /* Cursor.swift in Sources */,
+				OBJ_81 /* DataSourceJoin.swift in Sources */,
+				OBJ_82 /* Delete.swift in Sources */,
+				OBJ_83 /* Error.swift in Sources */,
+				OBJ_84 /* Execute.swift in Sources */,
+				OBJ_85 /* Insert.swift in Sources */,
+				OBJ_86 /* MySQLORM.swift in Sources */,
+				OBJ_87 /* Number.swift in Sources */,
+				OBJ_88 /* Parse.swift in Sources */,
+				OBJ_89 /* ResultSet.swift in Sources */,
+				OBJ_90 /* Row.swift in Sources */,
+				OBJ_91 /* Select.swift in Sources */,
+				OBJ_92 /* Table.swift in Sources */,
+				OBJ_93 /* Update.swift in Sources */,
+				OBJ_94 /* Upsert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_50 /* MySQL */;
+			targetProxy = B35ACFA21F2EC53800F75834 /* PBXContainerItemProxy */;
+		};
+		OBJ_111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_57 /* PerfectLib */;
+			targetProxy = B35ACFA31F2EC53800F75834 /* PBXContainerItemProxy */;
+		};
+		OBJ_112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_73 /* MySQLORM */;
+			targetProxy = B35ACFA41F2EC53800F75834 /* PBXContainerItemProxy */;
+		};
+		OBJ_98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_50 /* MySQL */;
+			targetProxy = B35ACFA01F2EC53800F75834 /* PBXContainerItemProxy */;
+		};
+		OBJ_99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_57 /* PerfectLib */;
+			targetProxy = B35ACFA11F2EC53800F75834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQLORMTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				TARGET_NAME = MySQLORMTests;
+			};
+			name = Debug;
+		};
+		OBJ_103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQLORMTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				TARGET_NAME = MySQLORMTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MySQL;
+			};
+			name = Debug;
+		};
+		OBJ_53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MySQL;
+			};
+			name = Release;
+		};
+		OBJ_59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MySQLORM.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectLib;
+			};
+			name = Debug;
+		};
+		OBJ_60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MySQLORM.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectLib;
+			};
+			name = Release;
+		};
+		OBJ_75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQLORM_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQLORM;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MySQLORM;
+			};
+			name = Debug;
+		};
+		OBJ_76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417",
+				);
+				INFOPLIST_FILE = MySQLORM.xcodeproj/MySQLORM_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mysql/5.7.18_1/lib",
+					"-lmysqlclient",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mysql/5.7.18_1/include/mysql";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQLORM;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MySQLORM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_101 /* Build configuration list for PBXNativeTarget "MySQLORMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_102 /* Debug */,
+				OBJ_103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "MySQLORM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_51 /* Build configuration list for PBXNativeTarget "MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_52 /* Debug */,
+				OBJ_53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_58 /* Build configuration list for PBXNativeTarget "PerfectLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_59 /* Debug */,
+				OBJ_60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_74 /* Build configuration list for PBXNativeTarget "MySQLORM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_75 /* Debug */,
+				OBJ_76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

@@ -8,7 +8,7 @@ public class MySQLORM<Table: MySQLORMTable> {
     public init() {
         execute = MySQLExecute(tableName: Table.table)
     }
-
+    
     
 }
 
