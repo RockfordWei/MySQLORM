@@ -12,7 +12,7 @@ let package = Package(
             targets: ["MySQLORM"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect.git", from: "3.0.0"),
+        .package(url: "https://github.com/PerfectlySoft/PerfectLib.git", from: "3.0.0"),
         .package(url: "https://github.com/PerfectlySoft/Perfect-MySQL.git", from: "3.0.0"),
     ],
     targets: [
