@@ -1,4 +1,4 @@
-import MySQL
+import PerfectMySQL
 
 
 public class MySQLORM<Table: MySQLORMTable> {

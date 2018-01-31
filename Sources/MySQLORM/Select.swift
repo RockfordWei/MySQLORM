@@ -21,7 +21,7 @@ public extension MySQLExecute {
         if columns.count > 0 {
             clauseSelectList = columns.joined(separator: ",")
         }
-        if whereClause.characters.count > 0 {
+        if whereClause.count > 0 {
             clauseWhere = " WHERE \(whereClause)"
         }
         let paramsString = params.map({String(describing: $0)})

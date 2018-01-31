@@ -6,7 +6,7 @@
 //
 //
 
-import MySQL
+import PerfectMySQL
 
 extension MySQLExecute {
     class Connect {
